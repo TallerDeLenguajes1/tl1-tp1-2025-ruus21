@@ -1,0 +1,15 @@
+ignorado.txt
+# Archivos de Microsoft Office
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.tmp
+# Ejecutables y archivos binarios
+*.exe
+*.dll
+*.o
+*.out
+*.bin
