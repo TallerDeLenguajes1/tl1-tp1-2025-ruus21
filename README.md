@@ -1,4 +1,4 @@
-# Ejercicio 2 - Repaso de punteros
+# Ejercicio 2
 
 ## Respuestas sobre el archivo .gitignore
 
@@ -35,7 +35,9 @@ ignorado.txt
 
 Estas reglas ignoran el archivo ignorado.txt, documentos de Microsoft Office (Word, Excel, PowerPoint) y ejecutables generados por compiladores o sistemas operativos.
 
-## Respuestas al apartado g
+# Ejercicio 3
+
+## Apartado g)
 
 ### ¿Por qué el resultado de 2 y 3 es el mismo?
 El resultado de 2 (dirección almacenada por el puntero) y 3 (dirección de la variable) es el mismo porque el puntero está apuntando directamente a la dirección de memoria de la variable. Cuando se asigna &variable al puntero, este almacena esa dirección, por lo que *puntero y &variable son idénticos.
