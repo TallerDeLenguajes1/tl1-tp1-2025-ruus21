@@ -13,3 +13,9 @@ ignorado.txt
 *.o
 *.out
 *.bin
+
+*.obj
+*.pdb
+*.ilk
+*.idb
+tp1_1
