@@ -34,3 +34,11 @@ ignorado.txt
 *.bin
 
 Estas reglas ignoran el archivo ignorado.txt, documentos de Microsoft Office (Word, Excel, PowerPoint) y ejecutables generados por compiladores o sistemas operativos.
+
+## Respuestas al apartado g
+
+### ¿Por qué el resultado de 2 y 3 es el mismo?
+El resultado de 2 (dirección almacenada por el puntero) y 3 (dirección de la variable) es el mismo porque el puntero está apuntando directamente a la dirección de memoria de la variable. Cuando se asigna &variable al puntero, este almacena esa dirección, por lo que *puntero y &variable son idénticos.
+
+### ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué?
+En el punto 4 se obtiene la dirección de memoria del puntero mismo (&puntero), que es diferente a las de 2 y 3. Esto se debe a que el puntero es una variable distinta que ocupa su propio espacio en memoria, mientras que 2 y 3 se refieren a la dirección de la variable apuntada. La dirección del puntero depende de dónde lo coloque el compilador en la pila (stack).
